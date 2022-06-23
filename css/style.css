@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #a5f27c;
+    box-sizing: border-box;
+}
+body{
+    margin: 15px;
+    font-family: inherit, 'Courier New', Courier;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    position: sticky;
+    top: 0;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    column-gap: 9px;
+}
+h1{
+    color: #4c7039;
+    background-color: #75f032;
+    font-size: 75px;
+    font-family: ContBiología;
+    text-align: left;
+    padding: auto;
+}
+h2{
+    color: #4c7039;
+    background-color: #75f032;
+    font-family: inherit;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 200;
+}
+h3{ color:#4c7039;
+    background-color: #75f032;
+    font-family: inherit;
+    text-align: left;
+}
+h4{color:#4c7039;
+    background-color: #75f032;
+    font-family: inherit;
+    text-align: left;
+    font-size: 20px;
+}
+h5{color:#4c7039;
+    background-color: #75f032;
+    font-family: inherit;
+    text-align: left;
+}
+h6{color:#4c7039;
+    background-color: #75f032;
+    font-family: inherit;
+    text-align: left;
+    padding: auto;
+    border-radius: 2px;
+}
+@font-face {
+    font-family: ContBiología;
+    src: url(../assets/Fuentes/ContBiology.ttf);
+}
+p{
+    border-radius: 20px;
+    padding: auto;
+    margin: 15px;
+}
+.explicativo{
+    margin: 5px;
+    padding: 10px;
+    background-color:greenyellow;
+    overflow: auto;
+}
+.introducción{
+    border-style: double;
+    padding: 5px;
+    align-content: center;
+}
+.cajasección{
+    border-style: double;
+    margin: 5px;
+    padding: 5px;
+    align-content: center;
+    max-width: 1000px;
+    overflow:auto;
+}
+.figure{
+    width: 100%;
+}
+
+@media screen and (max-width:1920px) {
+    .cajasección {
+        
+    }
+} 
+@media screen and (max-width:1280px) {
+    .cajasección {
+
+    }
+} 
+
+@media screen and (max-width:800px) {
+    .cajasección {
+
+    }  
+} 
+
+@media screen and (max-width:480px) {
+    
+    
+} 
+.cajasección div p{
+    font-size: 15px;
+}
+a{
+    font-size: 15px;
+}
+a:hover{
+    color: #377018;
+    font-size: 15px;
+}
+a:active{
+    color: #5cbd28;
+    font-size: 15px;
+}
+a:visited{
+    color:#794c09;
+    font-size: 15px;
+}
+footer, footer .pie{
+    align-items: center;
+    text-align: center;
+}
+#parrafoPie{
+    font-size: 40px;
+    font-weight: bold;
+}

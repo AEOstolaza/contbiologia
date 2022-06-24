@@ -66,6 +66,13 @@ p{
     padding: auto;
     margin: 15px;
 }
+form{
+    border: solid 25px coral;
+    padding: 15px;
+    margin: 5px;
+    display: grid;
+    font-size: larger;    
+}
 .explicativo{
     margin: 5px;
     padding: 10px;
@@ -129,7 +136,7 @@ label{
 }
 @media screen and (max-width:1920px) {
     .cajasección {
-        
+                
     }
 } 
 @media screen and (max-width:1280px) {

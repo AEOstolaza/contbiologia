@@ -140,3 +140,27 @@ footer, footer .pie{
     font-size: 40px;
     font-weight: bold;
 }
+#container{
+    background-color: rgb(226, 122, 174);
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+
+}
+.grid-item{
+    border: 2px solidd black;
+    border-radius: 15px;
+    background-color: aquamarine;
+
+
+}
+
+.grid-item img{
+    width: 100%;
+    border-radius: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}

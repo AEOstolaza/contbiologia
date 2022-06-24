@@ -16,19 +16,15 @@ header{
     position: sticky;
     top: 0;
 }
-.nav-links{
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    column-gap: 9px;
-}
+
 h1{
     color: #4c7039;
     background-color: #75f032;
     font-size: 75px;
     font-family: ContBiología;
     text-align: left;
-    padding: auto;
+    padding: 20px;
+    margin:20px;
 }
 h2{
     color: #4c7039;
@@ -92,7 +88,45 @@ p{
 .figure{
     width: 100%;
 }
-
+.botonMenu{
+   margin: 0 auto;
+   display: block;
+   width: 40px;
+   height: 36px;
+   padding: 10px;
+   border-radius: 7px;
+   background: rgb(89, 226, 123);
+   color: white;
+   cursor: pointer;
+   position: relative;
+}
+.botonMenu span{
+    display: block;
+    width: 40px;
+    height: 4px;
+    background: white;
+    margin-top: 7px;
+}
+label{
+    cursor: pointer;
+}
+#menu-toggle{
+   display: none;
+}
+#trickMenu{
+    display: none;
+    text-align: center;
+    background: white;
+    padding: 10px 0;
+}
+#trickMenu li a{
+    display: block;
+    padding: 10px 0;
+    color: black;
+}
+#menu-toggle:checked + #trickMenu{
+    display: block;
+}
 @media screen and (max-width:1920px) {
     .cajasección {
         
@@ -111,8 +145,7 @@ p{
 } 
 
 @media screen and (max-width:480px) {
-    
-    
+        
 } 
 .cajasección div p{
     font-size: 15px;
@@ -141,21 +174,21 @@ footer, footer .pie{
     font-weight: bold;
 }
 #container{
-    background-color: rgb(226, 122, 174);
+    background-color: rgb(142, 235, 154);
 }
 .grid-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-
-
+    row-gap: 25px;
+    column-gap: 25px;
+    justify-items: center;
+    align-items: center;
 }
 .grid-item{
     border: 2px solidd black;
     border-radius: 15px;
     background-color: aquamarine;
-
-
 }
 
 .grid-item img{
@@ -163,4 +196,8 @@ footer, footer .pie{
     border-radius: 5px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+.grid-item h3{
+    background-color: aquamarine;
 }
